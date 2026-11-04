@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GERENCIADOR DE TAREFAS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="add">
+        <h3 id="welcome">Seja Bem Vindos!</h3>   
+        <h1 id="title">GERENCIADOR DE TAREFAS</h1>
+        <form id="task-form">
+            <input type="text" id="input" placeholder="Digite uma nova tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+
+    <div class="filtrozinho">
+        <button class="All">Todas</button>
+        <button class="Completed">Completas</button>
+        <button class="going">Em Andamento</button>
+
+    </div>
+
     
 </body>
 </html>
