@@ -4,7 +4,8 @@ let taskList = document.getElementById("task-list");
 let completed = document.getElementById("completed");
 let going = document.getElementById("going");
 
-
+let tarefas =[];
+let tarefasConcluidas=[];
 
 
 addButton.addEventListener("click", function(){  
@@ -25,6 +26,12 @@ addButton.addEventListener("click", function(){
     newlistItem.appendChild(Xbtn);
     taskList.appendChild(newlistItem);
     input.value = "";
+    tarefas.push(newlistItem.firstChild.textContent);
     
 
 }});
+
+function completas(){
+
+}
+
